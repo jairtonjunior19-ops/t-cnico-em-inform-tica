@@ -157,7 +157,7 @@ body.dark-theme button {
 
 
 .foto-sobre {
-  max-width: 150px;       /* tamanho da foto */
+  max-width: 95px;       /* tamanho da foto */
   border-radius: 50%;     /* deixa a foto redonda */
   display: block;
   margin: 0 auto 15px;    /* centraliza e dá espaço abaixo */
