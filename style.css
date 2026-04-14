@@ -104,6 +104,13 @@ footer {
 #btnProjetos:hover {
   background-color: #0056b3;
 }
+
+#sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .foto-sobre {
   width: 200px;        /* diminui a largura da imagem */
   height: auto;        /* mantém proporção */
@@ -111,12 +118,6 @@ footer {
   border-radius: 10px; /* cantos arredondados */
   display: block;
   margin: 20px auto;   /* centraliza a imagem */
-}
-
-#sobre {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #btn-tema {
