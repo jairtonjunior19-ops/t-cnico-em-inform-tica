@@ -156,7 +156,7 @@ body.dark-theme button {
 }
 
 .foto-sobre {
-  max-width: 80px;       /* diminui a foto */
+  max-width: 95px;       /* diminui a foto */
   border-radius: 50%;
   display: block;
   margin: 0 auto 15px;
@@ -199,7 +199,7 @@ h2 {
 }
 
 h2 {
-  font-size: 32px;   /* define o tamanho da fonte */
+  font-size: 42px;   /* define o tamanho da fonte */
 }
 
 
