@@ -18,6 +18,10 @@ function validarFormulario(event) {
         formulario.reset();
     }
 }
+const btn = document.getElementById("btn-tema");
+btn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-theme");
+});
 const btnTema = document.querySelector(`#btn-tema`);
 const body = document.body;
 
