@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  line-height: 2.5;
+  line-height: 3.5;
   background-color: var(--light-bg);
   color: var(--dark-color);
   margin: 0;
@@ -152,6 +152,10 @@ button {
 body.dark-theme button {
   background-color: #333;   /* botão escuro no tema dark */
   color: #FFD700;           /* texto amarelo */
+}
+
+#foto-sobre {
+  max-width: 80px;
 }
 
 foto-sobre {
