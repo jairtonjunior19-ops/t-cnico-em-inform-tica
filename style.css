@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  line-height: 2.5;
   background-color: var(--light-bg);
   color: var(--dark-color);
   margin: 0;
@@ -154,10 +154,8 @@ body.dark-theme button {
   color: #FFD700;           /* texto amarelo */
 }
 
-
-
-.foto-sobre {
-  max-width: 95px;       /* tamanho da foto */
+foto-sobre {
+  max-width: 80px;       /* tamanho da foto */
   border-radius: 50%;     /* deixa a foto redonda */
   display: block;
   margin: 0 auto 15px;    /* centraliza e dá espaço abaixo */
