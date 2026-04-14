@@ -275,13 +275,14 @@ footer {
   /* FORM */
   form {
     padding: 20px;
-    width: 90%;
+    width: 100%; /* CORREÇÃO IMPORTANTE */
+    max-width: 100%;
     margin: 20px auto;
   }
 
   /* PROJETOS */
   .projetos-container {
-    grid-template-columns: 1fr; /* 1 coluna no celular */
+    grid-template-columns: 1fr;
   }
 
   /* FOTO */
@@ -289,7 +290,7 @@ footer {
     width: 90px;
   }
 
-  /* BOTÃO WHATSAPP */
+  /* WHATSAPP */
   .whatsapp {
     bottom: 15px;
     right: 15px;
@@ -297,11 +298,12 @@ footer {
     padding: 12px;
   }
 
-  /* TÍTULO CONTATO */
+  /* TÍTULO */
   #contato h2 {
     font-size: 24px;
   }
 }
+
 /* ===== TELAS GRANDES ===== */
 @media (min-width: 1024px) {
 
