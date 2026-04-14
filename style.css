@@ -241,3 +241,80 @@ footer {
     flex-direction: column;
   }
 }
+/* ===== RESPONSIVO CELULAR ===== */
+@media (max-width: 768px) {
+
+  /* NAV */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  /* HEADER */
+  .header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .header ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* SECTIONS */
+  section {
+    margin: 10px 5px;
+    padding: 15px;
+  }
+
+  /* FORM */
+  form {
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  /* PROJETOS */
+  .projetos-container {
+    grid-template-columns: 1fr; /* 1 coluna no celular */
+  }
+
+  /* FOTO */
+  .sobre img {
+    width: 90px;
+  }
+
+  /* BOTÃO WHATSAPP */
+  .whatsapp {
+    bottom: 15px;
+    right: 15px;
+    font-size: 20px;
+    padding: 12px;
+  }
+
+  /* TÍTULO CONTATO */
+  #contato h2 {
+    font-size: 24px;
+  }
+}
+/* ===== TELAS GRANDES ===== */
+@media (min-width: 1024px) {
+
+  section {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+
+  form {
+    max-width: 600px;
+  }
+
+  .projetos-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
