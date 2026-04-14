@@ -152,18 +152,16 @@ button {
 body.dark-theme button {
   background-color: #333;   /* botão escuro no tema dark */
   color: #FFD700;           /* texto amarelo */
+
 }
 
-#foto-sobre {
-  max-width: 80px;
-}
-
-foto-sobre {
-  max-width: 80px;       /* tamanho da foto */
-  border-radius: 50%;     /* deixa a foto redonda */
+.foto-sobre {
+  max-width: 80px;       /* diminui a foto */
+  border-radius: 50%;
   display: block;
-  margin: 0 auto 15px;    /* centraliza e dá espaço abaixo */
+  margin: 0 auto 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
 }
 nav ul {
   display: flex;
